@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Project Consolation</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="bg"></div>
+  <div class="smoke smoke-1"></div>
+  <div class="smoke smoke-2"></div>
+
+  <div class="slideshow">
+
+    <div class="slide active visible" id="slide-0">
+      <div class="slide-center">
+        <p class="project-label">PROJECT</p>
+        <h1 class="title">CONSOLATION</h1>
+        <div class="socials">
+          <a href="#" class="social-link" aria-label="X / Twitter">
+            <svg><use href="assets/icons.svg#icon-x" /></svg>
+          </a>
+          <a href="#" class="social-link" aria-label="GitHub">
+            <svg><use href="assets/icons.svg#icon-github" /></svg>
+          </a>
+          <a href="#" class="social-link" aria-label="YouTube">
+            <svg><use href="assets/icons.svg#icon-youtube" /></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="slide" id="slide-1">
+      <div class="slide-center info-panel">
+        <div class="info-icon">
+          <svg><use href="assets/icons.svg#icon-fix" /></svg>
+        </div>
+        <h2 class="info-title">QoS Improvements</h2>
+        <p class="info-body">Enhancing 007: Quantum of Solace on PC — patches, fixes, and quality-of-life upgrades the original release never got.</p>
+      </div>
+    </div>
+
+   
+    <div class="slide" id="slide-2">
+      <div class="slide-center info-panel">
+        <div class="info-icon">
+          <svg><use href="assets/icons.svg#icon-code" /></svg>
+        </div>
+        <h2 class="info-title">Mod Support</h2>
+        <p class="info-body">Tools and documentation to help the community build on top of the game engine.</p>
+      </div>
+    </div>
+
+    <div class="slide" id="slide-3">
+      <div class="slide-center info-panel">
+        <div class="info-icon">
+          <svg><use href="assets/icons.svg#icon-community" /></svg>
+        </div>
+        <h2 class="info-title">Community</h2>
+        <p class="info-body">A hub for players, modders, and developers keeping Quantum of Solace alive on PC.</p>
+      </div>
+    </div>
+
+  </div><!-- /slideshow -->
+
+  <button class="arrow arrow-left" id="prev" aria-label="Previous">&#8592;</button>
+  <button class="arrow arrow-right" id="next" aria-label="Next">&#8594;</button>
+
+  <div class="dots">
+    <button class="dot active" data-index="0" aria-label="Slide 1"></button>
+    <button class="dot" data-index="1" aria-label="Slide 2"></button>
+    <button class="dot" data-index="2" aria-label="Slide 3"></button>
+    <button class="dot" data-index="3" aria-label="Slide 4"></button>
+  </div>
+
+  <p class="disclaimer">Not affiliated with Activision or EON Productions.</p>
+
+  <script src="main.js"></script>
+</body>
+</html>
